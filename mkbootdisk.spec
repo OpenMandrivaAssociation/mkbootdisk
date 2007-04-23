@@ -1,6 +1,6 @@
 %define name	mkbootdisk
-%define version 1.5.1
-%define release 2mdk
+%define version 1.5.3
+%define release %mkrel 1
 
 Summary: 	Creates an initial ramdisk image for preloading modules.
 Name: 		%{name}
@@ -10,7 +10,7 @@ License: 	GPL
 Group: 		System/Kernel and hardware
 Source: 	%{name}-%{version}.tar.bz2
 URL:		http://www.redhat.com/swr/src/mkbootdisk-1.4.2-1.src.html
-Patch0: 	mkbootdisk-1.5.1-mdk.patch.bz2
+Patch0: 	mkbootdisk-1.5.3-mdk.patch
 Patch1: 	mkbootdisk-1.5.1-devfs-compliant.patch.bz2
 ExclusiveArch: 	sparc sparc64 %{ix86} x86_64 amd64
 ExclusiveOs: 	Linux
