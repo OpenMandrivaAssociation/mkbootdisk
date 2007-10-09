@@ -2,7 +2,7 @@
 %define version 1.5.3
 %define release %mkrel 2
 
-Summary: 	Creates an initial ramdisk image for preloading modules.
+Summary: 	Creates an initial ramdisk image for preloading modules
 Name: 		%{name}
 Version: 	%{version}
 Release: 	%{release}
