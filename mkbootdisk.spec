@@ -22,6 +22,7 @@ Requires:	syslinux >= 1.76-2mdk
 %ifarch sparc sparc64
 Requires: 	silo genromfs
 %endif
+BuildRoot: 	%{_tmppath}/%{name}-%{version}-root
 
 %description
 The mkbootdisk program creates a standalone boot floppy disk for booting
