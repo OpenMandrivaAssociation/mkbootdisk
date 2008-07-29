@@ -1,6 +1,6 @@
 %define name	mkbootdisk
 %define version 1.5.3
-%define release %mkrel 2
+%define release %mkrel 4
 
 Summary: 	Creates an initial ramdisk image for preloading modules
 Name: 		%{name}
