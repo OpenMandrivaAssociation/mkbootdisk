@@ -10,7 +10,7 @@ Release: 	%{release}
 License: 	GPL
 Group: 		System/Kernel and hardware
 Source: 	%{name}-%{version}.tar.bz2
-URL:		http://www.redhat.com/swr/src/mkbootdisk-1.4.2-1.src.html
+URL:		https://www.redhat.com/swr/src/mkbootdisk-1.4.2-1.src.html
 Patch0: 	mkbootdisk-1.5.3-mdk.patch
 Patch1: 	mkbootdisk-1.5.1-devfs-compliant.patch
 ExclusiveArch: 	sparc sparc64 %{ix86} x86_64 amd64
